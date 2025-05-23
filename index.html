@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP 3</title>
+</head>
+<body>
+    <form id="form" style="display: flex; flex-direction: column; width: 500px;">
+        <label for="nomeProduto">Nome do produto: </label>
+        <input type="text" id="nomeProduto">
+
+        <label for="preco">Preço: </label>
+        <input type="number" id="precoProduto">
+
+        <label for="categoria">Categoria</label>
+        <select id="categoria">
+            <option value="tecnologia">Tecnologia</option>
+            <option value="alimentos">Alimentos</option>
+            <option value="livros">Livros</option>
+        </select>
+        <button id="btnCadastrar">Cadastrar Produto</button>
+        <p id="mensagemErro"></p>
+    </form>
+    <div id="cadastroProduto">
+        
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
